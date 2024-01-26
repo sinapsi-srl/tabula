@@ -1,6 +1,7 @@
 ---
 name: Segnalazione di un errore
 about: Crea un rapporto per aiutarci a migliorare
+labels: bug
 
 ---
 
