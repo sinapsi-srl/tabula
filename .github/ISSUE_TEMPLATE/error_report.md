@@ -1,6 +1,6 @@
 ---
-nome: Segnalazione di un errore
-riguardo: Crea un rapporto per aiutarci a migliorare
+name: Segnalazione di un errore
+about: Crea un rapporto per aiutarci a migliorare
 
 ---
 
