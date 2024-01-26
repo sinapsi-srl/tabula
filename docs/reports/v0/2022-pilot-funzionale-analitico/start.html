@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabula Report</title>
+    <script>
+        var logoOnLoad = function () {
+            setTimeout(() => {
+                window.location.replace("html/index.html");
+            }, "2500");
+        }, logoOnError = function () {
+            document.getElementById('logo').style.display = 'none';
+            document.getElementById('extract-instruction').style.display = 'block';
+        };
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+
+        @font-face {
+            font-family: 'Neue Haas Grotesk Text';
+            src: url(html/static/css/NHAASGROTESKTXPRO-55RG.ttf);
+        }
+
+        html, body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Neue Haas Grotesk Text';
+        }
+
+        #extract-instruction {
+            width: 50%;
+            translate: 50% 0;
+            display: none
+        }
+
+        #logo {
+            border: none;
+            outline: none;
+            height: 100vh;
+            width: 100%;
+            color: white;
+            display: flex;
+            align-items: center;
+            background-image: url(html/static/images/tabula_background.svg);
+        }
+
+        #logo .container {
+            margin-left: 5%;
+        }
+
+
+        #logo h1 {
+            font-size: 5em;
+            margin: 0;
+            text-shadow: 1px 1px 0 rgb(52, 82, 145),
+            -1px 1px 0 rgb(52, 82, 145),
+            1px -1px 0 rgb(52, 82, 145),
+            -1px -1px 0 rgb(52, 82, 145),
+            0px 1px 0 rgb(52, 82, 145),
+            0px -1px 0 rgb(52, 82, 145),
+            -1px 0px 0 rgb(52, 82, 145),
+            1px 0px 0 rgb(52, 82, 145),
+            2px 2px 0 rgb(52, 82, 145),
+            -2px 2px 0 rgb(52, 82, 145),
+            2px -2px 0 rgb(52, 82, 145),
+            -2px -2px 0 rgb(52, 82, 145),
+            0px 2px 0 rgb(52, 82, 145),
+            0px -2px 0 rgb(52, 82, 145),
+            -2px 0px 0 rgb(52, 82, 145),
+            2px 0px 0 rgb(52, 82, 145),
+            1px 2px 0 rgb(52, 82, 145),
+            -1px 2px 0 rgb(52, 82, 145),
+            1px -2px 0 rgb(52, 82, 145),
+            -1px -2px 0 rgb(52, 82, 145),
+            2px 1px 0 rgb(52, 82, 145),
+            -2px 1px 0 rgb(52, 82, 145),
+            2px -1px 0 rgb(52, 82, 145),
+            -2px -1px 0 rgb(52, 82, 145);
+        }
+
+        #logo h4 {
+            font-size: 1.5em;
+            margin: 0;
+            padding-left: 1.5em;
+        }
+
+        #extract-instruction h1 {
+            text-align: center;
+            color: #081C4A;
+        }
+
+        p, ol {
+            color: rgb(38, 38, 38);
+        }
+
+        ol {
+            margin-left: 30px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        svg * {
+            vector-effect: non-scaling-stroke;
+        }
+
+    </style>
+</head>
+
+<body>
+<div id="logo">
+    <div class="container">
+        <h1>tabula</h1>
+        <h4>il bilancio digitale</h4>
+    </div>
+
+</div>
+<div id="extract-instruction">
+    <h1>
+        Ops... quanta fretta di leggere il tuo report!
+    </h1>
+    <p>Di seguito sono fornite istruzioni dettagliate su come estrarre il report dal file ZIP:</p>
+    <ol>
+        <li><strong>Trova il file ZIP:</strong> Inizia individuando il file
+            ZIP sul tuo computer. Questo file avrà un'estensione ".zip".
+        </li>
+        <li><strong>Fai clic destro sul file ZIP:</strong> Posiziona il
+            cursore sopra il file ZIP e fai clic destro su di esso. Si
+            aprirà un menu contestuale.
+        </li>
+        <li><strong>Seleziona "Estrai" o "Estrai tutto":</strong> Nel menu
+            contestuale, troverai un'opzione come "Estrai" o "Estrai tutto".
+            Fai clic su questa opzione per avviare il processo di
+            estrazione.
+        </li>
+        <li><strong>Scegli una posizione di estrazione:</strong> Si aprirà
+            una finestra che ti chiederà dove desideri estrarre i contenuti
+            del file ZIP. Puoi scegliere una cartella esistente o crearne
+            una nuova. Seleziona la cartella di destinazione facendo clic su
+            di essa.
+        </li>
+        <li><strong>Conferma e avvia l'estrazione:</strong> Una volta
+            selezionata la cartella di destinazione, fai clic sul pulsante
+            "Estrai" o "OK". Il processo di estrazione inizierà, e i
+            contenuti del file ZIP saranno estratti nella posizione scelta.
+        </li>
+        <li><strong>Trova i contenuti del file ZIP estratti:</strong> Dopo
+            che l'estrazione è completata, puoi navigare nella cartella di
+            destinazione che hai selezionato al passaggio 4. All'interno di
+            quella cartella, dovresti trovare una cartella denominata
+            <i>html</i> e il file <i>start.html</i> che
+            desideri aprire.
+        </li>
+        <li><strong>Apri il report <i>start.html</i>:</strong> Infine, fai
+            doppio clic sul file <i>start.html</i> estratto per aprirlo nel
+            tuo browser web.
+        </li>
+    </ol>
+</div>
+<img src="html/static/images/tabula_background.svg" style="display: none"
+     onerror="logoOnError()" onload="logoOnLoad();">
+</body>
+</html>
+    
