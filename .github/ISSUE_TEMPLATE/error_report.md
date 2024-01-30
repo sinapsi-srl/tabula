@@ -5,6 +5,10 @@ labels: bug
 
 ---
 
+**Assicurati di aver selezionato i labels associati al modulo di riferimento**
+
+_____________________________________________________________________________
+
 ### Descrizione dell'errore
 [Sostituisci questo testo con una descrizione chiara e concisa dell'errore.]
 
