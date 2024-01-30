@@ -5,6 +5,10 @@ labels: Domanda
 
 ---
 
+**Assicurati di aver selezionato i labels associati al modulo di riferimento**
+
+_________
+
 ### Domanda
 [Sostituisci questo testo con la Domanda. Cerca di essere il piu coinciso possibile]
 
