@@ -4,9 +4,10 @@ about: Suggerisci un idea per aiutarci a migliorare
 labels: New_Idea
 
 ---
+**Assicurati di aver selezionato i labels associati al modulo di riferimento**
 
 ### Descrizione dell'idea
-[Sostituisci questo testo con una descrizione chiara e concisa dell'errore.]
+[Sostituisci questo testo con una descrizione chiara e concisa del'idea.]
 
 ### Allega file, immagini o Screenshot (opzionale)
 [Sostituisci questo testo con incollando immagini, file o screenshot per aiutare a spiegare il tuo problema.]
