@@ -4,7 +4,10 @@ about: Suggerisci un idea per aiutarci a migliorare
 labels: New_Idea
 
 ---
+
 **Assicurati di aver selezionato i labels associati al modulo di riferimento**
+
+________________________________________________________________________________
 
 ### Descrizione dell'idea
 [Sostituisci questo testo con una descrizione chiara e concisa del'idea.]
