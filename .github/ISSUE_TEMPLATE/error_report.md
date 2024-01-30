@@ -5,27 +5,16 @@ labels: bug
 
 ---
 
-**Descrivi l'errore**
-Una descrizione chiara e concisa dell'errore.
+### Descrizione dell'errore
+[Sostituisci questo testo con una descrizione chiara e concisa dell'errore.]
 
-**Per riprodurre**
-Allega i file di input per riprodurre l'errore o il codice da lanciare.
+### Allega file, immagini o Screenshot (opzionale)
+[Sostituisci questo testo con incollando immagini, file o screenshot per aiutare a spiegare il tuo problema.]
 
-Passaggi per riprodurre il comportamento:
-1. ...
-2. ...
-3. ...
+### Sistema, Browser, Versione (opzionale)
+ * Sistema operativo: [ad es. iOS]
+ * Browser: [ad es. iOS]
+ * Versione Tabula: [ad es. 1]
 
-**Comportamento atteso**
-Una descrizione chiara e concisa di cosa ti aspettavi succedesse.
-
-**Screenshot**
-Se applicabile, aggiungi screenshot per aiutare a spiegare il tuo problema.
-
-**Sistema, Browser, Versione (si prega di completare le seguenti informazioni):**
- - Sistema operativo: [ad es. iOS]
- - Browser: [ad es. iOS]
- - Versione [ad es. 1]
-
-**Contesto aggiuntivo**
-Aggiungi qualsiasi altro contesto sul problema qui.
+### Contesto aggiuntivo (Opzionale)
+[Sostituisci questo testo aggiungendo qualsiasi altro contesto sul problema qui.]
