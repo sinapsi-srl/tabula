@@ -1,7 +1,7 @@
 ---
 name: Nuova idea
 about: Suggerisci un idea per aiutarci a migliorare
-labels: Nuova_Idea
+labels: New_Idea
 
 ---
 
